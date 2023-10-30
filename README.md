@@ -25,7 +25,7 @@ func main() {
 	message := []byte("Yoda said, do or do not. There is no try.")
 
 	block, _ := aes.NewCipher(key)
-	gmac, err := gmac.CalculateGMAC(block, nonce, message)
+	gmac, err := gmac.New(block, nonce, message)
 	if err != nil {
 		log.Fatal(err)
 	}
