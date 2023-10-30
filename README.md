@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"log"
 
-  "github.com/pedroalbanese/gmac"
+	"github.com/pedroalbanese/gmac"
 )
 
 func main() {
@@ -30,3 +30,12 @@ func main() {
 	fmt.Printf("GMAC: %x\n", gmac)
 }
 ```
+
+Result: `GMAC: e7ee2c63b4dc328eed4a86b3fb3490af`
+
+## License
+
+This project is licensed under the ISC License.
+
+#### Copyright (c) 2020-2023 Pedro F. Albanese - ALBANESE Research Lab.
+
