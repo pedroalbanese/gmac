@@ -1,10 +1,7 @@
 # GMAC
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](https://github.com/pedroalbanese/gmac/blob/master/LICENSE.md) 
 [![GoDoc](https://godoc.org/github.com/pedroalbanese/gmac?status.png)](http://godoc.org/github.com/pedroalbanese/gmac)
-[![GitHub downloads](https://img.shields.io/github/downloads/pedroalbanese/gmac/total.svg?logo=github&logoColor=white)](https://github.com/pedroalbanese/gmac/releases)
 [![Go Report Card](https://goreportcard.com/badge/github.com/pedroalbanese/gmac)](https://goreportcard.com/report/github.com/pedroalbanese/gmac)
-[![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/pedroalbanese/gmac)](https://golang.org)
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/pedroalbanese/gmac)](https://github.com/pedroalbanese/gmac/releases)
 
 ### RFC 4543 Galois Message Authentication Code (GMAC) (NIST SP800-38D)
 
