@@ -7,7 +7,7 @@ import (
 // CalculateGMAC calculates the Galois Message Authentication Code (GMAC)
 func CalculateGMAC(block cipher.Block, nonce, data []byte) ([]byte, error) {
 	// Create an AEAD using the provided block
-	aead, err := cipher.NewGCM(block)
+	aead, err := cipher.NewGCMWithNonceSize(block, 16)
 	if err != nil {
 		return nil, err
 	}
