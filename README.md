@@ -4,6 +4,7 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/pedroalbanese/gmac)](https://goreportcard.com/report/github.com/pedroalbanese/gmac)
 
 ### RFC 4543 Galois Message Authentication Code (GMAC) (NIST SP800-38D)
+"GMAC" stands for "Galois Message Authentication Code." It is a cryptographic authentication code that provides integrity and authenticity assurances for a given message or data. GMAC is specifically associated with the GCM (Galois/Counter Mode) mode of operation for block ciphers. It's used in authenticated encryption, ensuring that the data remains unaltered and authentic while providing confidentiality through encryption.
 
 ## Usage
 ```go
@@ -36,6 +37,9 @@ func main() {
 ```
 
 Result: `GMAC: e7ee2c63b4dc328eed4a86b3fb3490af`
+
+### Reference
+https://www.cryptopp.com/wiki/GMAC
 
 ## License
 
